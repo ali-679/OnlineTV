@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">تلویزیون آنلاین</string>
+    <string name="textView_AboutUs">Ali Feyz Abadi | علی فیض آبادی \n\nTELEGRAM ID: @ ali_679\n\nINSTAGRAM ID: Ali.FeyzAbadi_\n\nLinkedIn: Ali Feyz Abadi\n\nGitHub: ali-679</string>
+    <string name="textView_TV">تلویزیون</string>
+    <string name="textView_OnlineTV">تلویزیون آنلاین</string>
+    <string name="textView_splash_shoar">تمامی شبکه ها در جیب شما</string>
+    <string name="textView_notItemToList">شما هیچ آیتمی را به به لیست علاقه مندی ها اضافه نکردید!</string>
+    <string name="textView_noNet">اتصال اینترنت برقرار نمی باشد</string>
+    <string name="textView_test">Test</string>
+    <string name="toast_successInsert">با موفقیت به علاقه مندی ها افزوده شد</string>
+    <string name="toast_Error">خطای ناشناخته ای رخ داده است!</string>
+    <string name="toast_successDelete">با موفقیت از لیست علاقه مندی ها حذف شد</string>
+    <string name="toast_ErrorNet">خطای شبکه</string>
+    <string name="toast_notInMarket">برنامه در مارکتی نیست</string>
+    <string name="textView_sat">ماهواره</string>
+    <string name="textView_radio">رادیو</string>
+    <string name="textView_favorite">علاقه مندی ها</string>
+    <string name="menu_telegram">آیدی تلگرام</string>
+    <string name="menu_rate">امتیاز به برنامه</string>
+    <string name="menu_share">اشتراک گذاری</string>
+    <string name="menu_aboutUs">درباره ما</string>
+    <string name="menu_exit">خروج</string>
+</resources>

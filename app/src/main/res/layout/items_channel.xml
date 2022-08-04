@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="4dp"
+    android:elevation="4dp"
+    android:layout_margin="5dp"
+    android:layoutDirection="rtl">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="?selectableItemBackground"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            tools:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/textView_channelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/textView_test"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/imageView"
+            android:layout_marginRight="8dp"
+            />
+        
+        <TextView
+            android:id="@+id/textView_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/textView_test"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_toLeftOf="@id/imageView"
+            android:layout_below="@id/textView_channelName"
+            android:layout_marginRight="8dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_favorite_border_24"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
